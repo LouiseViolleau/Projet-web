@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>VIOLLEAU Louise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="index.html"><img src="retour.jpg" width="100" height="50" alt="logo"></a>
+    <div class="container_interets">
+    <h1>Mes centres d'interêt </h1>
+     <h2>-> Basket</h2>
+     <p>Je pratique le basket depuis plus de 10 ans, c'est un sport qui m'a permis d'apprendre l'esprit d'équipe et la cohésion. </p>
+     <img src="equipe.jpg" alt="photo equipe" width="200" height="230" style="border : 5px solid rgb(236, 74, 15)">
+
+     <h2>-> Pâtisserie </h2>
+     <p>J'aime cuisiner sur mon temps libre, ça me permet de développer ma créativité. </p>
+     
+    <p id="myfooterJS"></p>
+    <button id="button-myfooter" onclick="AffichageTexte()">Découvrez mes réalisations :</button>
+    <script>
+    function AffichageTexte(){
+        document.getElementById("myfooterJS").innerHTML= '<img src = "g1.jpg" alt="g1" width="300"><img src = "g2.jpg" alt="g2" width="300"><img src = "g3.jpg" alt="g3" width="300"><img src = "g4.jpg" alt="g4" width="300">';
+    }     
+    </script>
+
+    <h2>-> Musique</h2>
+    <p>Je joue de la guitare de temps en temps, la musique me met instentanément de bonne humeur.</p>
+    <img src="guitare.jpg" alt="photo guitare" width="200" height="230" style="border : 5px solid rgb(236, 74, 15)" >
+
+    <h2>-> Voyage</h2>
+    <p>J'adore voyager, découvrir de nouvelles cultures, de nouvelles langues. Ces dernières années je suis allé en Tunisie ou encore à Londres. Dans quelques années j'aimerai beaucoup faire un road trip en Islande.</p>
+    <img src="voyage1.jpeg" alt="photo voyage" width="200" height="230" style="border : 5px solid rgb(236, 74, 15)">
+    <img src="voyage2.jpeg" alt="photo voyage" width="200" height="230" style="border : 5px solid rgb(236, 74, 15)">
+
+
+</div>
+</body>
+</html>
